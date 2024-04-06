@@ -1,0 +1,23 @@
+{
+  "name": "letty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node .",
+    "deploy-commands": "node deploy-commands.js",
+    "clear-commands": "node clear-commands.js"
+  },
+  "author": "Rataj <rataj@leosight.cz>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chrono-node": "^2.7.5",
+    "discord.js": "^14.14.1",
+    "moment": "^2.30.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}
